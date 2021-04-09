@@ -1,0 +1,246 @@
+/* CSS Valueable*/
+:root {
+    --navcolor: #232B76;
+
+  }
+/* end */
+
+@font-face {
+    font-family: 'FS Albert'; /* FS Albert Font Alternative */
+    src: url('/src/css/fonts/Noto-Sans-SemiCondensed-Bold.ttf.eot'); /* IE9 Compat Modes */
+    src: url('/src/css/fonts/Noto-Sans-SemiCondensed-Bold.ttf.woff') format('woff'); /* Pretty Modern Browsers */
+  }
+  
+
+
+.navbar-item{
+    text-transform: uppercase;
+    color: var(--navcolor);
+    top: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+
+}
+
+.vistrem-nav{
+    position: relative;
+    width: 1920px;
+    height: 100px;
+    left:10%;
+}
+
+.vistrem-hero{
+  position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 721px;
+    background: transparent url("../assets/vistrem_hero.png") 0% 0% no-repeat ;
+    background-size: contain;
+    background-position-x:-50vh;
+    opacity: 1;
+}
+.vistrem-hero-body{
+    position: relative;
+    left:210px ;
+    top: 124px;
+}
+.vistrem-hero-title{
+    font-size: 15px;
+    color: var(--navcolor);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.vistrem-hero-event-title{
+    font-size: 30px;
+    letter-spacing: -0.36px;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 846px;
+    height: 107px;
+}
+.vistrem-hero-event-subtitle{
+color: var(--navcolor);
+font-size: 36px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  
+    
+  }
+  
+  .flex-container > div {
+    background-color:rgba(35,43,118, 0.3);
+    width: 85px;
+    margin: 10px;
+    height:94px;
+    text-align: center;
+    line-height:3;
+    line-height: 75px;
+    font-size: 15px;
+    
+  }
+  .vistrem-speakers{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .personal-img{
+    width: 150px;
+    height: 150px;
+  
+  }
+  .personal{
+    padding: 10px;
+    text-align: center;
+  }
+  .personal > a {
+    background-color: var(--navcolor);
+    color: white;
+    line-height: 5;
+    padding-top: 15;
+    padding-bottom: 15;
+    padding-left: 30;
+    padding-right: 30;
+    border-radius: 23px;
+  }
+  .vistrem-btn-blue{
+    background-color: var(--navcolor);
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+  }
+  .vistrem-btn-light{
+    background-color: white;
+    border-radius: 25px;
+    border: solid 2px var(--navcolor);
+    color: var(--navcolor);
+    text-decoration: none;
+
+  }
+  .vistrem-speakers-btns{
+    gap: 35px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .vistrem-whatis{
+
+    text-align: center;
+    padding-bottom: 109px;
+    background: #F7F8FB 0% 0% no-repeat padding-box;
+  }
+  .vistrem-whatis-title{
+  padding-top: 20px;
+  color: var(--navcolor);
+  font-size: 40px;
+  font-weight: bold;
+  }
+  .vistrem-whatis-subtitle{
+    color: var(--navcolor);
+    font-size: 31px;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+    }
+    .vistrem-info{
+      padding-top: 124px;
+      padding-bottom: 184px;
+    
+    }
+    .vistrem-box{
+      box-shadow: none;
+    }
+    .vistrem-events{
+      padding-top: 78px;
+      text-align: center;
+      padding-bottom: 134px;
+      background: #F7F8FB 0% 0% no-repeat padding-box;
+    }
+    .vistrem-card-title{
+      justify-content: center;
+      background: #232B76 0% 0% no-repeat padding-box;
+      color: white;
+       border-radius: 10px 10px 0px 0px;
+      font-weight: 300;
+    }
+
+    .vistrem-card{
+      display: table;
+      width: 300px;
+      height: 334px;
+    }
+    .vistrem-card-register-btn{
+      width: 107px;
+      color: white;
+      float: left;
+      background-color: #009FE3;
+      border-radius: 29px;
+      box-shadow: 0px 0px 20px #1490DF60;
+      padding-right: 3;
+      padding-left: 3;
+      padding-top: 11;
+      padding-bottom: 11;
+      font-size: 13px;
+    }
+    .vistrem-card-addcalendar-btn{
+      width: 145px;
+      color: white;
+      float: left;
+      border-radius: 29px;
+      background: #042164 0% 0% no-repeat padding-box;
+      box-shadow: 0px 0px 20px #1490DF60;
+      padding-right: 3;
+      padding-left: 3;
+      padding-top: 11;
+      padding-bottom: 11;
+      font-size: 13px;
+    }
+    .vistrem-card-comingsoon-btn{
+      width: 266px;
+      border: 1px solid #009FE3 ;
+      color: #009FE3;
+      float: left;
+      border-radius: 29px;
+      box-shadow: 0px 0px 20px #1490DF60;
+      padding-right: 3;
+      padding-left: 3;
+      padding-top: 11;
+      padding-bottom: 11;
+      font-size: 13px;
+    }
+
+    .owl-item{
+      width: 350px !important;
+    }
+
+
+    .vistrem-login{
+    
+    background: transparent url("../assets/login.png") 0% 0% no-repeat ;
+    width: 320px;
+    padding:180px;
+    margin-bottom: 90px;
+
+}
+          .vistrem-signup-btns{
+             text-align: right;
+            padding-top: 264px;
+          }
+       .vistrem-register{
+        background: transparent url("../assets/register.png") 0% 0% no-repeat ;
+        
+        padding: 180px;
+  
+   
+
+  }
